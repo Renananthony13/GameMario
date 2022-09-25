@@ -5,19 +5,17 @@
 }
 
 body {
-    background-image: url("../img/cenario_the_game_1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(255, 255, 255);
 }
 
 .game-board{
     width: 100%;
     height: 500px;
-    /* border-bottom: solid 10px rgb(56, 40, 100); */
+    border-bottom: solid 10px rgb(4, 255, 0);
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    /* background: linear-gradient(rgb(56, 40, 100), #E0F6FF); */
+    background: linear-gradient(rgb(0, 144, 206), #E0F6FF); 
 }
 
 div > .pipe{
